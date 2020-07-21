@@ -1,0 +1,17 @@
+
+1. https://start.spring.io/
+
+2. Export data 
+
+   mysqldump --databases --user=<username> --password <dbname> > ipl_db.sql
+   
+3. Import data
+
+	mysql -u <username> -p <dbname> < ipl_db.sql
+	
+	
+1. CRUD - Team, Player
+2. Service
+3. RestServices
+
+
